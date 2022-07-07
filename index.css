@@ -32,6 +32,7 @@
             --box-shadow-color: hsl(208, 11%, 55%);
             box-shadow: 1px 2px 3px var(--box-shadow-color);
             color: hsl(208, 11%, 55%);
+            cursor: pointer;
         }
         /* Main  section */
         
@@ -76,6 +77,7 @@
             font-weight: 600;
             --box-shadow-color: hsl(208, 11%, 55%);
             box-shadow: 1px 2px 3px var(--box-shadow-color);
+            cursor: pointer;
         }
         /* second  section */
         
@@ -221,7 +223,9 @@
             font-weight: 600;
             --box-shadow-color: hsl(208, 11%, 55%);
             box-shadow: 1px 2px 3px var(--box-shadow-color);
+            cursor: pointer;
         }
+        /* #card4 button :hover {} */
         
         #spacer {
             display: flex;
@@ -304,4 +308,11 @@
         
         #email i {
             padding-top: 18px;
+        }
+        
+        a:link,
+        a:visited {
+            color: white;
+            text-decoration: none;
+            cursor: auto;
         }
