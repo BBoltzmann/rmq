@@ -1,318 +1,632 @@
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-        body {
-            background-color: white;
-            padding: 0px;
-            margin: 0px;
-        }
-        
-        #element {
-            background-image: url('/assests/bg-hero-desktop.svg');
-            width: 1440px;
-            height: 718px;
-            background-color: hsl(193, 100%, 96%);
-        }
-        /* Nav bar section */
-        
-        #navbar {
-            display: flex;
-            padding-top: 60px;
-            padding-left: 100px;
-            gap: 840px;
-        }
-        
-        #register {
-            border-radius: 30px;
-            border: none;
-            background-color: white;
-            padding: 7px 45px;
-            justify-content: flex-end;
-            font-family: 'Poppins', sans-serif;
-            font-size: 16px;
-            --box-shadow-color: hsl(208, 11%, 55%);
-            box-shadow: 1px 2px 3px var(--box-shadow-color);
-            color: hsl(208, 11%, 55%);
-            cursor: pointer;
-        }
-        /* Main  section */
-        
-        #about {
-            display: flex;
-        }
-        
-        #rightside {
-            padding-right: 50px;
-        }
-        
-        #rightside img {
-            height: 500px;
-            width: 700px;
-            padding-top: 55px;
-        }
-        
-        #leftside {
-            padding-top: 150px;
-            padding-left: 100px;
-            padding-right: 120px;
-        }
-        
-        #leftside h1 {
-            font-family: 'Poppins', sans-serif;
-            font-size: 35px;
-        }
-        
-        #leftside p {
-            font-family: 'Poppins', sans-serif;
-            font-size: 15px;
-            padding-bottom: 25px;
-        }
-        
-        #leftside button {
-            background-color: hsl(322, 100%, 66%);
-            padding: 10px 45px;
-            font-family: 'Poppins', sans-serif;
-            border-radius: 25px;
-            border: none;
-            color: white;
-            font-weight: 600;
-            --box-shadow-color: hsl(208, 11%, 55%);
-            box-shadow: 1px 2px 3px var(--box-shadow-color);
-            cursor: pointer;
-        }
-        /* second  section */
-        
-        #back {
-            display: block;
-            padding-left: 100px;
-            padding-right: 120px;
-        }
-        /* card1 section */
-        
-        #card1 {
-            display: flex;
-            padding-top: 75px;
-            width: 100%;
-            height: 300px;
-            --box-shadow-color: hsl(208, 11%, 55%);
-            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
-            border-radius: 25px;
-            gap: 250px;
-            padding-left: 50px;
-            padding-bottom: 40px;
-            margin-top: 100px;
-        }
-        
-        #rside img {
-            height: 270px;
-            width: 100%;
-        }
-        
-        #lside {
-            width: 90%;
-            padding-top: 75px;
-        }
-        
-        #lside h2 {
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        #lside p {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            color: hsl(208, 11%, 55%);
-        }
-        /* card2 section */
-        
-        #card2 {
-            display: flex;
-            padding-top: 75px;
-            width: 100%;
-            height: 300px;
-            --box-shadow-color: hsl(208, 11%, 55%);
-            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
-            border-radius: 25px;
-            gap: 250px;
-            padding-left: 50px;
-            padding-bottom: 40px;
-            margin-top: 75px;
-        }
-        
-        #lside1 img {
-            height: 270px;
-        }
-        
-        #rside1 {
-            width: 60%;
-            padding-top: 75px;
-            padding-right: 80px;
-        }
-        
-        #rside1 h2 {
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        #rside1 p {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            color: hsl(208, 11%, 55%);
-        }
-        /* card3 section */
-        
-        #card3 {
-            display: flex;
-            padding-top: 75px;
-            width: 100%;
-            height: 300px;
-            --box-shadow-color: hsl(208, 11%, 55%);
-            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
-            border-radius: 25px;
-            gap: 250px;
-            padding-left: 50px;
-            padding-bottom: 40px;
-            margin-top: 75px;
-        }
-        
-        #lside2 {
-            width: 90%;
-            padding-top: 75px;
-        }
-        
-        #lside2 h2 {
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        #lside2 p {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            color: hsl(208, 11%, 55%);
-        }
-        
-        #rside2 img {
-            height: 270px;
-            width: 100%;
-        }
-        /* Card 4 section */
-        
-        #card4 {
-            text-align: center;
-            width: 50%;
-            height: 100px;
-            --box-shadow-color: hsl(208, 11%, 55%);
-            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
-            border-radius: 25px;
-            margin-bottom: -100px;
-            margin-top: 100px;
-            position: relative;
-            background-color: white;
-            padding-top: 40px;
-            padding-bottom: 35px;
-            padding-right: 30px;
-        }
-        
-        #card4 h2 {
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        #card4 button {
-            background-color: hsl(322, 100%, 66%);
-            padding: 10px 45px;
-            font-family: 'Poppins', sans-serif;
-            border-radius: 25px;
-            border: none;
-            color: white;
-            font-weight: 600;
-            --box-shadow-color: hsl(208, 11%, 55%);
-            box-shadow: 1px 2px 3px var(--box-shadow-color);
-            cursor: pointer;
-        }
-        /* #card4 button :hover {} */
-        
-        #spacer {
-            display: flex;
-        }
-        /* footer section */
-        
-        footer {
-            background-color: hsl(192, 100%, 9%);
-            width: 100%;
-            height: 200px;
-            color: white;
-            padding-top: 200px;
-            padding-left: 100px;
-            padding-bottom: 100px;
-        }
-        
-        footer img {
-            opacity: 1;
-        }
-        
-        #footerItems {
-            display: flex;
-        }
-        
-        #sizer {
-            width: 100px;
-            padding-right: 150px;
-        }
-        
-        #contact {
-            width: 600px;
-            padding-right: 0px;
-        }
-        
-        #footerIcons {
-            display: flex;
-            gap: 20px;
-        }
-        
-        #circle {
-            height: 20px;
-            width: 20px;
-            padding: 5px;
-            text-align: center;
-            border-radius: 50%;
-            display: inline-block;
-            color: #fff;
-            font-size: 1.1em;
-            font-weight: 600;
-            background-color: rgba(0, 0, 0, 0.1);
-            border: 1px solid #fff;
-        }
-        
-        #address {
-            padding-right: 0px;
-            display: flex;
-            width: 50%;
-            gap: 40px;
-        }
-        
-        #address i {
-            padding-top: 18px;
-        }
-        
-        #mobile {
-            display: flex;
-            width: 50%;
-            gap: 40px;
-        }
-        
-        #mobile i {
-            padding-top: 16px;
-        }
-        
-        #email {
-            display: flex;
-            width: 50%;
-            gap: 40px;
-        }
-        
-        #email i {
-            padding-top: 18px;
-        }
-        
-        a:link,
-        a:visited {
-            color: white;
-            text-decoration: none;
-            cursor: auto;
-        }
+                                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+                                    /** mobile 768px  **/
+                                    
+                                    @media(min-width: 375px) {
+                                        body {
+                                            background-color: white;
+                                            padding: 0px;
+                                            margin: 0px;
+                                        }
+                                        #element {
+                                            background-image: url('/assests/bg-hero-mobile.svg');
+                                            width: 375px;
+                                            height: 657px;
+                                            background-color: hsl(193, 100%, 96%);
+                                        }
+                                        #navbar {
+                                            padding: 50px 10px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        #navbar img {
+                                            height: 20px;
+                                            padding-top: 15px;
+                                        }
+                                        #register {
+                                            border-radius: 30px;
+                                            border: none;
+                                            background-color: white;
+                                            padding: 5px 15px;
+                                            justify-content: flex-end;
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 16px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            color: hsl(208, 11%, 55%);
+                                            cursor: pointer;
+                                        }
+                                        #leftside {
+                                            text-align: center;
+                                            padding: 1px 20px;
+                                        }
+                                        #leftside h1 {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 26px;
+                                        }
+                                        #leftside p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 15px;
+                                        }
+                                        #leftside button {
+                                            background-color: hsl(322, 100%, 66%);
+                                            padding: 10px 45px;
+                                            font-family: 'Poppins', sans-serif;
+                                            border-radius: 25px;
+                                            border: none;
+                                            color: white;
+                                            font-weight: 600;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            cursor: pointer;
+                                        }
+                                        #rightside img {
+                                            height: 220px;
+                                            padding: 10px 50px;
+                                        }
+                                        /** mobile Mid-section **/
+                                        #back {
+                                            display: block;
+                                            padding: 1px 20px;
+                                        }
+                                        #card1 {
+                                            display: block;
+                                            padding-top: 15px;
+                                            width: 280px;
+                                            height: 500px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            padding-left: 50px;
+                                            padding-bottom: 40px;
+                                            margin-top: 50px;
+                                        }
+                                        #rside img {
+                                            height: 220px;
+                                            width: 100%;
+                                        }
+                                        #lside {
+                                            width: 80%;
+                                            text-align: center;
+                                        }
+                                        #lside h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                            padding: 1px;
+                                        }
+                                        #lside p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-weight: 400;
+                                            color: hsl(208, 11%, 55%);
+                                            font-size: 13px;
+                                        }
+                                        /** card2 section **/
+                                        #card2 {
+                                            display: block;
+                                            padding-top: 15px;
+                                            width: 280px;
+                                            height: 500px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            padding-left: 50px;
+                                            padding-bottom: 40px;
+                                            margin-top: 50px;
+                                        }
+                                        #lside1 img {
+                                            height: 220px;
+                                            width: 100%;
+                                        }
+                                        #rside1 {
+                                            width: 80%;
+                                            text-align: center;
+                                        }
+                                        #rside1 h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                        }
+                                        #rside1 p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-weight: 400;
+                                            color: hsl(208, 11%, 55%);
+                                            font-size: 13px;
+                                        }
+                                        /** card3 section **/
+                                        #card3 {
+                                            display: block;
+                                            padding-top: 15px;
+                                            width: 280px;
+                                            height: 500px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            padding-left: 50px;
+                                            padding-bottom: 40px;
+                                            margin-top: 50px;
+                                        }
+                                        #lside2 {
+                                            width: 80%;
+                                            text-align: center;
+                                        }
+                                        #lside2 h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                        }
+                                        #lside2 p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-weight: 400;
+                                            color: hsl(208, 11%, 55%);
+                                            font-size: 13px;
+                                        }
+                                        #rside2 img {
+                                            height: 220px;
+                                            width: 100%;
+                                        }
+                                        /** Card  4 **/
+                                        #card4 {
+                                            width: 280px;
+                                            height: 140px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            margin-bottom: -50px;
+                                            margin-top: 30px;
+                                            position: relative;
+                                            background-color: white;
+                                            padding: 5px 0px;
+                                        }
+                                        #card4 h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 20px;
+                                            text-align: center;
+                                        }
+                                        #card4 button {
+                                            background-color: hsl(322, 100%, 66%);
+                                            padding: 5px 15px;
+                                            font-family: 'Poppins', sans-serif;
+                                            border-radius: 25px;
+                                            border: none;
+                                            color: white;
+                                            font-weight: 600;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            cursor: pointer;
+                                            margin-left: 70px;
+                                        }
+                                        /** Footer **/
+                                        a:link,
+                                        a:visited {
+                                            color: white;
+                                            text-decoration: none;
+                                            cursor: auto;
+                                        }
+                                        footer {
+                                            background-color: hsl(192, 100%, 9%);
+                                            width: 400px;
+                                            height: 500px;
+                                            color: white;
+                                            padding: 40px 20px;
+                                        }
+                                        footer img {
+                                            opacity: 1;
+                                            height: 30px;
+                                            padding-top: 20px;
+                                        }
+                                        #footerItems {
+                                            display: block;
+                                        }
+                                        #address {
+                                            display: flex;
+                                            width: 100%;
+                                            gap: 10px;
+                                        }
+                                        #address i {
+                                            padding-top: 18px;
+                                        }
+                                        #mobile {
+                                            display: flex;
+                                            width: 100%;
+                                            gap: 10px;
+                                        }
+                                        #mobile i {
+                                            padding-top: 16px;
+                                        }
+                                        #email {
+                                            display: flex;
+                                            width: 100%;
+                                            gap: 10px;
+                                        }
+                                        #email i {
+                                            padding-top: 18px;
+                                        }
+                                        #sizer a :hover {
+                                            text-decoration: underline;
+                                        }
+                                        #contact {
+                                            width: 300px;
+                                            padding-right: 0px;
+                                        }
+                                        #footerIcons {
+                                            display: flex;
+                                            gap: 20px;
+                                            justify-content: center;
+                                        }
+                                        #circle {
+                                            height: 20px;
+                                            width: 20px;
+                                            padding: 5px;
+                                            text-align: center;
+                                            border-radius: 50%;
+                                            display: inline-block;
+                                            color: #fff;
+                                            font-size: 1.1em;
+                                            font-weight: 600;
+                                            background-color: rgba(0, 0, 0, 0.1);
+                                            border: 1px solid #fff;
+                                        }
+                                    }
+                                    /** iPads, Tablets 768px  **/
+                                    
+                                    @media (min-width: 600px) {
+                                        body {
+                                            background-color: white;
+                                            padding: 0px;
+                                            margin: 0px;
+                                        }
+                                        #element {
+                                            background-image: url('/assests/bg-hero-desktop.svg');
+                                            width: 1100px;
+                                            height: 718px;
+                                            background-color: hsl(193, 100%, 96%);
+                                        }
+                                        #navbar {
+                                            padding-top: 60px;
+                                            padding-left: 100px;
+                                            display: flex;
+                                            justify-content: space-evenly;
+                                        }
+                                        #navbar img {
+                                            margin-right: 400px;
+                                        }
+                                        #register {
+                                            border-radius: 30px;
+                                            border: none;
+                                            background-color: white;
+                                            padding: 7px 45px;
+                                            justify-content: flex-end;
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 16px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            color: hsl(208, 11%, 55%);
+                                            cursor: pointer;
+                                            margin-right: 150px;
+                                        }
+                                        #about {
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        #rightside img {
+                                            height: 300px;
+                                            width: 500px;
+                                            padding-top: 100px;
+                                        }
+                                        #leftside {
+                                            padding-top: 150px;
+                                            padding-left: 100px;
+                                        }
+                                        #leftside h1 {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 35px;
+                                        }
+                                        #leftside p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 15px;
+                                            padding-bottom: 25px;
+                                        }
+                                        #leftside button {
+                                            background-color: hsl(322, 100%, 66%);
+                                            padding: 10px 45px;
+                                            font-family: 'Poppins', sans-serif;
+                                            border-radius: 25px;
+                                            border: none;
+                                            color: white;
+                                            font-weight: 600;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            cursor: pointer;
+                                        }
+                                        /* 
+                                a:link,
+                                a:visited {
+                                    color: white;
+                                    text-decoration: none;
+                                    cursor: auto;
+                                }
+                                #element {
+                                    background-image: url('/assests/bg-hero-desktop.svg');
+                                    width: 768px;
+                                    height: 450px;
+                                    background-color: hsl(193, 100%, 96%);
+                                }
+                                */
+                                    }
+                                    
+                                    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+                                    /** Desktop 1440px  **/
+                                    
+                                    @media (min-width: 1200px) {
+                                        body {
+                                            background-color: white;
+                                            padding: 0px;
+                                            margin: 0px;
+                                        }
+                                        a:link,
+                                        a:visited {
+                                            color: white;
+                                            text-decoration: none;
+                                            cursor: auto;
+                                        }
+                                        #element {
+                                            background-image: url('/assests/bg-hero-desktop.svg');
+                                            width: 1440px;
+                                            height: 718px;
+                                            background-color: hsl(193, 100%, 96%);
+                                        }
+                                        /* Nav bar section */
+                                        #navbar {
+                                            padding-top: 60px;
+                                            padding-left: 100px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        #register {
+                                            border-radius: 30px;
+                                            border: none;
+                                            background-color: white;
+                                            padding: 7px 45px;
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 16px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            color: hsl(208, 11%, 55%);
+                                            cursor: pointer;
+                                            /* margin-left: 400px; */
+                                        }
+                                        /** Main  section **/
+                                        #about {
+                                            display: flex;
+                                        }
+                                        #rightside {
+                                            padding-right: 50px;
+                                        }
+                                        #rightside img {
+                                            height: 500px;
+                                            width: 700px;
+                                            padding-top: 55px;
+                                        }
+                                        #leftside {
+                                            padding-top: 150px;
+                                            padding-left: 100px;
+                                            padding-right: 120px;
+                                        }
+                                        #leftside h1 {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 35px;
+                                        }
+                                        #leftside p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-size: 15px;
+                                            padding-bottom: 25px;
+                                        }
+                                        #leftside button {
+                                            background-color: hsl(322, 100%, 66%);
+                                            padding: 10px 45px;
+                                            font-family: 'Poppins', sans-serif;
+                                            border-radius: 25px;
+                                            border: none;
+                                            color: white;
+                                            font-weight: 600;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            cursor: pointer;
+                                        }
+                                        /** Mid-Section **/
+                                        #back {
+                                            display: block;
+                                            padding-left: 100px;
+                                            padding-right: 120px;
+                                        }
+                                        /** card1 section **/
+                                        #card1 {
+                                            display: flex;
+                                            padding-top: 75px;
+                                            width: 100%;
+                                            height: 300px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            gap: 250px;
+                                            padding-left: 50px;
+                                            padding-bottom: 40px;
+                                            margin-top: 100px;
+                                        }
+                                        #rside img {
+                                            height: 270px;
+                                            width: 100%;
+                                        }
+                                        #lside {
+                                            width: 90%;
+                                            padding-top: 75px;
+                                        }
+                                        #lside h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                        }
+                                        #lside p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-weight: 400;
+                                            color: hsl(208, 11%, 55%);
+                                        }
+                                        /* card2 section */
+                                        #card2 {
+                                            display: flex;
+                                            padding-top: 75px;
+                                            width: 100%;
+                                            height: 300px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            gap: 250px;
+                                            padding-left: 50px;
+                                            padding-bottom: 40px;
+                                            margin-top: 75px;
+                                        }
+                                        #lside1 img {
+                                            height: 270px;
+                                        }
+                                        #rside1 {
+                                            width: 60%;
+                                            padding-top: 75px;
+                                            padding-right: 80px;
+                                        }
+                                        #rside1 h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                        }
+                                        #rside1 p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-weight: 400;
+                                            color: hsl(208, 11%, 55%);
+                                        }
+                                        /* card3 section */
+                                        #card3 {
+                                            display: flex;
+                                            padding-top: 75px;
+                                            width: 100%;
+                                            height: 300px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            gap: 250px;
+                                            padding-left: 50px;
+                                            padding-bottom: 40px;
+                                            margin-top: 75px;
+                                        }
+                                        #lside2 {
+                                            width: 90%;
+                                            padding-top: 75px;
+                                        }
+                                        #lside2 h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                        }
+                                        #lside2 p {
+                                            font-family: 'Poppins', sans-serif;
+                                            font-weight: 400;
+                                            color: hsl(208, 11%, 55%);
+                                        }
+                                        #rside2 img {
+                                            height: 270px;
+                                            width: 100%;
+                                        }
+                                        /* Card 4 section */
+                                        #card4 {
+                                            text-align: center;
+                                            width: 50%;
+                                            height: 100px;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 1px 1px 1px var(--box-shadow-color);
+                                            border-radius: 25px;
+                                            margin-bottom: -100px;
+                                            margin-top: 100px;
+                                            position: relative;
+                                            background-color: white;
+                                            padding-top: 40px;
+                                            padding-bottom: 35px;
+                                            padding-right: 30px;
+                                        }
+                                        #card4 h2 {
+                                            font-family: 'Poppins', sans-serif;
+                                        }
+                                        #card4 button {
+                                            background-color: hsl(322, 100%, 66%);
+                                            padding: 10px 45px;
+                                            font-family: 'Poppins', sans-serif;
+                                            border-radius: 25px;
+                                            border: none;
+                                            color: white;
+                                            font-weight: 600;
+                                            --box-shadow-color: hsl(208, 11%, 55%);
+                                            box-shadow: 1px 2px 3px var(--box-shadow-color);
+                                            cursor: pointer;
+                                        }
+                                        #spacer {
+                                            display: flex;
+                                        }
+                                        /** footer section **/
+                                        footer {
+                                            background-color: hsl(192, 100%, 9%);
+                                            width: 100%;
+                                            height: 200px;
+                                            color: white;
+                                            padding-top: 200px;
+                                            padding-left: 100px;
+                                            padding-bottom: 100px;
+                                        }
+                                        footer img {
+                                            opacity: 1;
+                                        }
+                                        #footerItems {
+                                            display: flex;
+                                        }
+                                        #sizer {
+                                            width: 100px;
+                                            padding-right: 150px;
+                                        }
+                                        #sizer a :hover {
+                                            text-decoration: underline;
+                                        }
+                                        #contact {
+                                            width: 600px;
+                                            padding-right: 0px;
+                                        }
+                                        #footerIcons {
+                                            display: flex;
+                                            gap: 20px;
+                                        }
+                                        #circle {
+                                            height: 20px;
+                                            width: 20px;
+                                            padding: 5px;
+                                            text-align: center;
+                                            border-radius: 50%;
+                                            display: inline-block;
+                                            color: #fff;
+                                            font-size: 1.1em;
+                                            font-weight: 600;
+                                            background-color: rgba(0, 0, 0, 0.1);
+                                            border: 1px solid #fff;
+                                        }
+                                        #circle :hover {
+                                            color: hsl(322, 100%, 66%);
+                                        }
+                                        #address {
+                                            padding-right: 0px;
+                                            display: flex;
+                                            width: 50%;
+                                            gap: 40px;
+                                        }
+                                        #address i {
+                                            padding-top: 18px;
+                                        }
+                                        #mobile {
+                                            display: flex;
+                                            width: 50%;
+                                            gap: 40px;
+                                        }
+                                        #mobile i {
+                                            padding-top: 16px;
+                                        }
+                                        #email {
+                                            display: flex;
+                                            width: 50%;
+                                            gap: 40px;
+                                        }
+                                        #email i {
+                                            padding-top: 18px;
+                                        }
+                                    }
